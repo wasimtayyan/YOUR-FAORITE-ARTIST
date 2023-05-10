@@ -1,81 +1,79 @@
-
 /* font-family: 'Merriweather', serif;
 font-family: 'Oswald', sans-serif; */
-img{
+img {
   max-width: 100%;
 }
-body{
-  font-family: 'Oswald', sans-serif;
+body {
+  font-family: "Oswald", sans-serif;
   font-size: medium;
 }
-ul{
+ul {
   list-style: none;
 }
-a{
+a {
   text-decoration: none;
   cursor: pointer;
   color: white;
 }
-.logoCustum{
+.logoCustum {
   height: 1em;
   width: 6em;
 }
-main{
+main {
   background-repeat: no-repeat;
   background-image: url(./images/cute-adele-2K-wallpaper.jpg);
   background-size: cover;
   height: 100vh;
   /* position: relative; */
 }
-.hero-section{
-
-padding:  30em 10em 3em 3em;
+.hero-section {
+  padding: 30em 10em 3em 3em;
 }
-.hero-title{
-  font-family: 'Merriweather', serif;
+.hero-title {
+  font-family: "Merriweather", serif;
   font-weight: 900;
   font-size: 10rem;
 }
-.section-two{
-  background-color:#6B5142 ;
+.section-two {
+  background-color: #6b5142;
   padding-right: -1em;
 }
 
-.section-text{
-  display: flex;
-  align-items: center;
-  color:white;
-  font-family: 'Oswald', sans-serif;
-  font-weight: 400;
+.section-two p {
+
+  color: white;
+  font-family: "Oswald", sans-serif;
+ font-weight:400; 
   font-size: 1.25rem;
-  line-height: 2;
+  line-height: 1.7rem;
+  padding: 12px;
 }
 .sction-Three,
-.section-four{
+.section-four {
   width: 100%;
   color: white;
-  background-color: #664C3E;
+  background-color: #664c3e;
 }
-.card-cus{
+.card-cus {
   /* margin-right: 3em;
   margin-left: 3em; */
   align-items: center;
   /* padding-left: 1em;
   padding-right: 1em; */
 }
-.card:hover{
+.card:hover {
   transform: translateY(-5px);
 }
-.btn-cust{
-  background-color: #1ED760;
-  margin-bottom: .75em;
+.btn-cust {
+  background-color: #1ed760;
+  margin-bottom: 0.75em;
 }
-.comment{
+.comment {
   max-width: 650px;
-  width:100%;
+  width: 100%;
   margin: 0 auto;
 }
-#comment-contant{
+#comment-contant {
   margin: 0 3em 0 0;
   padding: 2em 1em;
   width: 100%;
@@ -83,34 +81,34 @@ padding:  30em 10em 3em 3em;
   border-radius: 10px;
   border: none;
 }
-#custum-donate{
+#custum-donate {
   width: 6em;
   border-radius: 5px;
   border: none;
-  padding: .50em .50em;
+  padding: 0.5em 0.5em;
   margin: 0 7em;
 }
-#message{
+#message {
   font-size: 1.5rem;
-  
 }
-footer{
-  background-color: #523E33;
+footer {
+  background-color: #523e33;
 }
-@media screen and  (max-width:500px) {
-  main{
+@media screen and (max-width: 500px) {
+  main {
     background-size: 100%;
-    background-color: #664C3E;
+    background-color: #664c3e;
     height: 35vh;
     width: 100%;
   }
-  .hero-section{
+  .hero-section {
     padding: 6em 2em;
   }
-  .hero-title{
+  .hero-title {
     font-size: 2em;
   }
-  .card-cus{
+  .card-cus {
     margin: 0 0 2em 0;
   }
 }
+
